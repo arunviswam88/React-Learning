@@ -1,4 +1,7 @@
 .card {
-    display: flex;
-    border: 1px solid red;
+    background-color: $color-neutral-10;
+    border: 1px solid $color-neutral-40;
+    margin: auto;
+    max-width: 1120px;
+    padding: 7px 7px 7px 7px;
 }

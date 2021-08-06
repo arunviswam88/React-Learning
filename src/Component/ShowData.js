@@ -21,8 +21,11 @@ class ShowData extends Component {
     }
     render() {
         return (
-            <div>
-                <p>{this.state.textToDisplay}</p>
+            <div className="container">
+                <div className="card">
+                    <h1>Sample Content from Server</h1>
+                    <p>{this.state.textToDisplay}</p>
+                </div>
             </div>
         )
     }
